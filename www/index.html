@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+   <head>
+      <meta charset="utf-8">
+      <title>AppNextGen</title>
+      <meta name="description" content="App Next Gen Software Product and project development">
+      <meta name="author" content="AppNextGen.com">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,300italic' rel='stylesheet' type='text/css'>
+      <!-- Library CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.css">
+      <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="css/animations.css" media="screen">
+      <link rel="stylesheet" href="css/superfish.css" media="screen">
+      <link rel="stylesheet" href="css/revolution-slider/css/settings.css" media="screen">
+      <link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/global.css">
+      <!-- Skin -->
+      <link rel="stylesheet" href="css/colors/blue.css" class="colors">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="css/theme-responsive.css">
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="img/ico/favicon.ico">
+      <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-touch-icon-114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-touch-icon-144.png">
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+      <![endif]-->
+   </head>
+   <body >
+    <div class="page-mask">
+            <div class="page-loader">
+
+                <div class="spinner"></div>
+                Loading...
+            </div>
+
+      </div>
+
+      <div class="wrap" id="mainWrap">
+         <!-- Header Start -->
+         <header id="header">
+            <!-- Header Top Bar Start -->
+           <!-- <div class="top-bar">
+               <div class="slidedown collapse">
+                  <div class="container">
+                    <div class="phone-email pull-left">
+                        <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
+                        <a href="support@fifothemes.com"><i class="fa fa-envelope"></i> Email : support@fifothemes.com</a>
+                     </div>
+                     <div class="follow-us pull-right">
+                        <ul class="social pull-left">
+                           <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                           <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                           <li class="rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                        <div id="search-form" class="pull-right">
+                           <form action="#" method="get">
+                              <input type="text" class="search-text-box" placeholder="Search...">
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>-->
+            <!-- Header Top Bar End -->
+            <!-- Main Header Start -->
+            <div class="main-header">
+               <div class="container">
+                  <!-- TopNav Start -->
+                  <div class="topnav navbar-header">
+                     <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                     <i class="fa fa-angle-down icon-current"></i>
+                     </a>
+                  </div>
+                  <!-- TopNav End -->
+                  <!-- Logo Start -->
+                  <div class="logo pull-left">
+                     <h1>
+                        <a href="index.html">
+                        <img src="img/logonew.png" alt="appnextgen" width="125" height="60">
+                        </a>
+                     </h1>
+                  </div>
+                  <!-- Logo End -->
+                  <!-- Mobile Menu Start -->
+                  <div class="mobile navbar-header">
+                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                     <i class="fa fa-bars fa-2x"></i>
+                     </a>
+                  </div>
+                  <!-- Mobile Menu End -->
+                  <!-- Menu Start -->
+                  <nav class="collapse navbar-collapse menu">
+                     <ul class="nav navbar-nav sf-menu">
+                        <li class="li-home">
+                           <a id="current" ui-sref="home">
+                           Home
+                          <!-- <span class="sf-sub-indicator">
+                           <i class="fa fa-angle-down "></i>
+                           </span>-->
+                           </a>
+                          <!-- <ul>
+                              <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
+                              <li><a href="index-3.html" class="sf-with-ul">Home 3</a></li>
+                              <li><a href="index-4.html" class="sf-with-ul">Home 4</a></li>
+                              <li><a href="index-nivo.html" class="sf-with-ul">Nivo Slider</a></li>
+                           </ul>-->
+                        </li>
+                        <li>
+                           <a ui-sref="ourofferings" id="offeringMenu" class="sf-with-ul" >
+                           Our Offerings
+                           <span class="sf-sub-indicator">
+                           <!--<i class="fa fa-angle-down "></i>-->
+                           </span>
+                           </a>
+                          <!-- <ul id="offeringsSubmenu">
+                              <li><a ui-sref="mobappdevelopment" class="sf-with-ul">Mobile Application Development</a></li>
+                              <li><a ui-sref="responsappdevelopment" class="sf-with-ul">Responsive and Web Development</a></li>
+                              <li><a ui-sref="uxuidevelopment" class="sf-with-ul">UX and UI Design</a></li>
+                              <li><a ui-sref="cloudcomputing" class="sf-with-ul">Cloud Computing</a></li>
+                              <li><a ui-sref="bigdata" class="sf-with-ul">Big Data</a></li>
+                              <li><a ui-sref="bussinessintelligence" class="sf-with-ul">Bussiness Intelligence</a></li>
+                              <li><a ui-sref="analytics" class="sf-with-ul">Analytics</a></li>
+                              <li><a ui-sref="consulting" class="sf-with-ul">Consulting</a></li>
+                           </ul>-->
+                        </li>
+                        <li>
+                           <a href="#" ui-sref="industries" id="industriesMenu" class="sf-with-ul">
+                           Industries
+                           <span class="sf-sub-indicator">
+                          <!-- <i class="fa fa-angle-down "></i>-->
+                           </span>
+                           </a>
+                          <!-- <ul id="industriesSubMenu">
+                              <li><a href="about.html" class="sf-with-ul">Finance</a></li>
+                              <li><a href="services.html" class="sf-with-ul">Healthcare</a></li>
+                              <li><a href="about.html" class="sf-with-ul">Smart City</a></li>
+                              <li><a href="testimonials.html" class="sf-with-ul">Communications</a></li>
+                              <li><a href="full-width.html" class="sf-with-ul">Educations</a></li>
+                              <li><a href="page-left-sidebar.html" class="sf-with-ul">Retails</a></li>
+                              <li><a href="page-right-sidebar.html" class="sf-with-ul">Travel</a></li>
+                              <li><a href="page-right-sidebar.html" class="sf-with-ul">Wearable</a></li>
+                           </ul>-->
+                        </li>
+                        <li>
+                           <a  ui-sref="careers" class="sf-with-ul" id="careersMenu">
+                           Careers
+                           <span class="sf-sub-indicator">
+                           <!--<i class="fa fa-angle-down "></i>-->
+                           </span>
+                           </a>
+                           <ul>
+                               <!--<li><a href="portfolio-two.html" class="sf-with-ul">Working at AppNextGen</a></li>
+                               <li><a href="portfolio-three.html" class="sf-with-ul">Find a Position</a></li>
+                               <li><a href="portfolio-four.html" class="sf-with-ul">4 Column</a></li>
+                               <li><a href="portfolio-single.html" class="sf-with-ul">Single Item Page</a></li>
+                               <li><a href="portfolio-single-big.html" class="sf-with-ul">Single Large Item Page</a></li>-->
+                           </ul>
+                        </li>
+                        <li>
+                           <a ui-sref="aboutus" class="sf-with-ul" id="aboutusMenu">
+                           About US
+                           <span class="sf-sub-indicator">
+                           <!--<i class="fa fa-angle-down "></i>-->
+                           </span>
+                           </a>
+                           <!--<ul>
+                              <li><a href="about.html" class="sf-with-ul">About AppNextGen</a></li>
+                              <li><a href="about.html" class="sf-with-ul">Why Us</a></li>
+                              <li><a href="blog-right-sidebar.html" class="sf-with-ul">Leadership Team</a></li>
+                              <li><a href="blog-small.html" class="sf-with-ul">Partners</a></li>
+                              <li><a href="blog-small.html" class="sf-with-ul">Our Clients</a></li>
+                              <li><a href="blog-small.html" class="sf-with-ul">Testimonials</a></li>
+                              <li><a href="single-post.html" class="sf-with-ul">News & Events</a></li>
+                           </ul>-->
+                        </li>
+                        <li><a href="#" ui-sref="contactus" id="contactusMenu">
+                            Contact
+                            <!--<span class="sf-sub-indicator">
+                              <i class="fa fa-angle-down"></i>
+                            </span>-->
+                            </a>
+                           <!-- <ul>
+                              <li><a href="contact.html" class="sf-with-ul">Contact</a></li>
+                              <li><a href="contact-2.html" class="sf-with-ul">Contact 2</a></li>
+                            </ul>-->
+                         </li>
+                     </ul>
+                  </nav>
+                  <!-- Menu End -->
+               </div>
+            </div>
+            <!-- Main Header End -->
+         </header>
+         <!-- Header End -->
+         <!-- Content Start -->
+         <div id="main">
+            <!-- Slider Start-->
+            <div class="fullwidthbanner-container">
+               <div class="fullwidthbanner rslider">
+                  <ul>
+                     <!-- First Slide -->
+                      <li data-transition="fade" data-slotamount="7" data-masterspeed="200"  data-saveperformance="on">
+                      <img src="img/slider/slider-bg-1.jpg"  alt="ANG" data-lazyload="img/slider/slider-bg-1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                        <div class="caption modern_big_bluebg h1 lft tp-caption start"
+                           data-x="40"
+                           data-y="85"
+                           data-speed="700"
+                           data-endspeed="800"
+                           data-start="1000"
+                           data-easing="easeOutQuint"
+                           data-endeasing="easeOutQuint">
+                           <h3>AppNextGen </h3>
+                            <h5>Bridging the Technology Generation Gap</h5>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="1400"
+                           data-speed="1050"
+                           data-y="180"
+                           data-x="40">
+                           <div class="list-slide">
+
+                              <h5 class="dblue headingwidth"> AppNextGen came into operation in 2013, stepping things up in Silicon Valley and becoming a force to be reckoned with in the Mobile, Cloud, Big-Data and Web Development arena
+                              </h5>
+                             <p>
+                              <h5 class="dblue headingwidth"><b>"Simplicity is the ultimate form of sophistication”</b> is our dictum and we highly take pride in making things simpler for our customers. We keep things simple, saving our clients’ time and money by providing a convenient end-to-end solution, dealing with one talented team from beginning to end.</h5>
+                               </p>
+                           </div>
+                        </div>
+
+                        <div class="caption lfb caption_button_1 fadeout tp-caption start"
+                           data-x="40"
+                           data-y="330"
+                           data-speed="900"
+                           data-endspeed="300"
+                           data-start="2700"
+                           data-hoffset="-70"
+                           data-easing="easeOutExpo">
+                           <a class="btn-special hidden-xs btn-grey" href="#" ui-sref="aboutus">Learn More</a>
+                        </div>
+
+                     </li>
+                     <!-- 2nd SLIDE -->
+                      <li data-transition="fade" data-slotamount="7" data-masterspeed="200"  data-saveperformance="on">
+                      <img src="img/slider/slider-bg-1.jpg"  alt="ANG" data-lazyload="img/slider/slider-bg-1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                        <div class="caption modern_big_bluebg h1 lft tp-caption start"
+                           data-x="40"
+                           data-y="65"
+                           data-speed="700"
+                           data-endspeed="800"
+                           data-start="1000"
+                           data-easing="easeOutQuint"
+                           data-endeasing="easeOutQuint">
+                           <h3>Our Offerings</h3>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="1400"
+                           data-speed="1050"
+                           data-y="140"
+                           data-x="40">
+                           <div class="list-slide">
+                              <i class="fa fa-mobile-phone slide-icon"></i>
+                              <h5 class="dblue"> Native and cross platform mobile development. </h5>
+                           </div>
+                        </div>
+                       <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="2200"
+                           data-speed="1350"
+                           data-y="180"
+                           data-x="40">
+                           <div class="list-slide">
+                              <i class="fa fa-laptop slide-icon"></i>
+                              <h5 class="dblue"> Responsive Web and Database-driven Development </h5>
+                           </div>
+                        </div>
+                          <div class="caption list_slide lfb tp-caption start"
+                               data-easing="easeOutExpo"
+                               data-start="2200"
+                               data-speed="1350"
+                               data-y="220"
+                               data-x="40">
+                              <div class="list-slide">
+                                  <i class="fa fa-cloud slide-icon"></i>
+                                  <h5 class="dblue"> IOT and Smart Mobility development </h5>
+                              </div>
+                          </div>
+                          <div class="caption list_slide lfb tp-caption start"
+                               data-easing="easeOutExpo"
+                               data-start="2200"
+                               data-speed="1350"
+                               data-y="260"
+                               data-x="40">
+                              <div class="list-slide">
+                                  <i class="fa fa-car slide-icon"></i>
+                                  <h5 class="dblue"> Infotainment and Telematics development </h5>
+                              </div>
+                          </div>
+                        <div class="caption lfb caption_button_1 fadeout tp-caption start"
+                           data-x="40"
+                           data-y="320"
+                           data-speed="900"
+                           data-endspeed="300"
+                           data-start="2700"
+                           data-hoffset="-70"
+                           data-easing="easeOutExpo">
+                           <a class="btn-special hidden-xs btn-grey" href="#" ui-sref="ourofferings">Learn More</a>
+                        </div>
+
+                     </li>
+                      <!-- THE FIRST SLIDE -->
+                      <li data-transition="fade" data-slotamount="7" data-masterspeed="500"  data-saveperformance="on">
+                          <img src="img/slider/slider-bg-2.jpg"  alt="AppNextGen" data-lazyload="img/slider/slider-bg-2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                          <div class="caption large_text sft"
+                           data-x="460"
+                           data-y="54"
+                           data-speed="300"
+                           data-start="800"
+                           data-easing="easeOutExpo" > Mobile apps</div>
+                        <div class="caption medium_text sfl"
+                           data-x="389"
+                           data-y="92"
+                           data-speed="300"
+                           data-start="1100"
+                           data-easing="easeOutExpo"  >AND</div>
+                        <div class="caption large_text sfr"
+                           data-x="438"
+                           data-y="88"
+                           data-speed="300"
+                           data-start="1100"
+                           data-easing="easeOutExpo"  ><span class="dblue">Responsive web development</span></div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="1400"
+                           data-speed="1050"
+                           data-y="180"
+                           data-x="460">
+                           <div class="list-slide">
+                              <i class="fa fa-mobile-phone slide-icon"></i>
+                              <h5> Native Mobile development - IOS,Windows,Android,Blackberry </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="1800"
+                           data-speed="1200"
+                           data-y="220"
+                           data-x="460">
+                           <div class="list-slide">
+                              <i class="fa fa-html5 slide-icon"></i>
+                              <h5> Cross Platform development - Mobile UI </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="2200"
+                           data-speed="1350"
+                           data-y="260"
+                           data-x="460">
+                           <div class="list-slide">
+                              <i class="fa fa-laptop slide-icon"></i>
+                              <h5> Responsive web development </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="2600"
+                           data-speed="1350"
+                           data-y="300"
+                           data-x="460">
+                           <div class="list-slide">
+                              <i class="fa fa-cubes slide-icon"></i>
+                              <h5> custom SDK's development for IOS,Android,Windows and Javascript </h5>
+                           </div>
+                        </div>
+                        <div class="caption list_slide lfb tp-caption start"
+                           data-easing="easeOutExpo"
+                           data-start="3000"
+                           data-speed="1350"
+                           data-y="340"
+                           data-x="460">
+                           <div class="list-slide">
+                              <i class="fa fa-cloud slide-icon"></i>
+                              <h5> API development </h5>
+                           </div>
+                        </div>
+                        <div class="caption lfl"
+                           data-x="53"
+                           data-y="30"
+                           data-speed="300"
+                           data-start="1400"
+                           data-easing="easeOutExpo">
+                           <!--<img src="img/slider/mobilesOS.png" alt="iMac Responsive">-->
+                        </div>
+                        <div class="caption lfl"
+                           data-x="223"
+                           data-y="145"
+                           data-speed="300"
+                           data-start="1500"
+                           data-easing="easeOutExpo">
+                           <img src="img/slider/responsive_devlopment.jpg" alt="iPad Responsive">
+                        </div>
+                        <div class="caption lfl"
+                           data-x="272"
+                           data-y="253"
+                           data-speed="300"
+                           data-start="1600"
+                           data-easing="easeOutExpo">
+                           <!--<img src="img/slider/responsive-iphone.png" alt="iPhone Responsive">-->
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- Slider End-->
+            <!-- Slogan Start-->
+            <!--<div class="slogan bottom-pad-small">
+               <div class="container">
+                  <div class="row">
+                     <div class="slogan-content">
+                        <div class="col-lg-9 col-md-9">
+                           <h2 class="slogan-title">We design and develop the best website’s for customers!</h2>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                           <div class="get-started">
+                              <button class="btn btn-special btn-color pull-right">Get Started Now</button>
+                           </div>
+                        </div>
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>-->
+            <!-- Slogan End-->
+            <!-- Main Content start-->
+            <div class="main-content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="content-box big ch-item bottom-pad-small">
+                            <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="fa fa-users"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="fa fa-users"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>About US</h3>
+                              <p>
+                                  AppNextGen came into operation in 2013, stepping things up in Silicon Valley and becoming a force to be reckoned with in the Mobile, Cloud, Big-Data and Web Development arena. As a professional and energetic team, we are always ahead when it comes to new technology.
+                              </p>
+                              <a href="#" ui-sref="aboutus">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="content-box big ch-item bottom-pad-small">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="fa fa-eye"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="fa fa-eye"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>Our Values</h3>
+                              <p>
+                                  We believe the company with the best culture wins the race.Our values serve as a compass for our actions and describe how we behave in the world.We hold our core values in high regard. Our seven core values represent the framework of our cultural beliefs, shaping every decision and every action we make.
+                              </p>
+                              <a href="#" ui-sref="aboutus">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="content-box big ch-item">
+                           <div class="ch-info-wrap">
+                              <div class="ch-info">
+                                 <div class="ch-info-front ch-img-1"><i class="fa fa-lightbulb-o"></i></div>
+                                 <div class="ch-info-back">
+                                    <i class="fa fa-lightbulb-o"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="content-box-info">
+                              <h3>Why US</h3>
+                              <p>
+                                  AppNextGen  is driven by expert level web/mobile application developers who always thrive to bring distinctive set of products and applications that make money and bring success!
+                                  We serve cutting-edge companies and brands;we keep our clients thrilled and captivated
+
+                              </p>
+                              <a href="#" ui-sref="aboutus">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Main Content end-->
+
+            <!-- Product Content Start-->
+            <div class="product-lead bottom-pad">
+              <div class="bg-overlay">
+                   <div class="container">
+                      <div class="row">
+                         <div class="col-md-6 col-sm-12 col-xs-12 text-center animate_afl d1">
+                            <img src="img/appnextgenmain.png" alt="appnextgen">
+                         </div>
+                         <div class="col-md-6 col-sm-12 col-xs-12 animate_afr d3">
+                            <div class="app-service">
+                               <h3>AppNext Gen  Services</h3>
+                               <h4>We provide all kinds of software design and development services.</h4>
+                               <p>If your need is for a unique control system, tailored business application, or suite of components that work together to become your own software “package”, then get in touch. We work alongside our clients throughout the development life-cycle, aligning processes, disparate technologies, and software platforms, to produce a precisely tailored solution.
+                               </p>
+
+                               <div class="divider"></div>
+                               <div class="learnmore">
+                                  <a class="btn-special btn-grey" href="#" ui-sref="ourofferings">Learn More</a>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+              </div>
+            </div>
+            <!-- Product Content end-->
+
+            <!-- Recent works start-->
+           <!-- <div class="bottom-pad">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 animate_afl d1">
+                        <h3 class="title">Recent Works</h3>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 col-xs-12">
+                        <div class="row portfolio-pad">
+                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d2">
+                              <div class="portfolio-item">
+                                 <a href="img/portfolio/portfolio-1.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                    <span class="portfolio-item-hover"></span>
+                                    <span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-1.jpg" alt=" "/>
+                                 </a>
+                                 <div class="portfolio-item-title">
+                                    <a href="single-project.html">Insta Genius</a>
+                                       <p>
+                                          Design / Development
+                                       </p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d3">
+                               <div class="portfolio-item">
+                                  <a href="img/portfolio/portfolio-2.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                  <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-2.jpg" alt=" "/>
+                                  </a>
+                                  <div class="portfolio-item-title">
+                                     <a href="single-project.html">YA Sound</a>
+                                     <p>
+                                        Sound / Audio
+                                     </p>
+                                  </div>
+                                  <div class="clearfix"></div>
+                               </div>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d4">
+                               <div class="portfolio-item">
+                                  <a href="img/portfolio/portfolio-3.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                  <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-3.jpg" alt=" "/>
+                                  </a>
+                                  <div class="portfolio-item-title">
+                                     <a href="single-project.html">Nike Shoe</a>
+                                     <p>
+                                        Apareal / Shoe
+                                     </p>
+                                  </div>
+                                  <div class="clearfix"></div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d5">
+                               <div class="portfolio-item">
+                                  <a href="img/portfolio/portfolio-4.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                  <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-4.jpg" alt=" "/>
+                                  </a>
+                                  <div class="portfolio-item-title">
+                                     <a href="single-project.html">Camera Icon</a>
+                                     <p>
+                                        Icon / Device
+                                     </p>
+                                  </div>
+                                  <div class="clearfix"></div>
+                               </div>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d6">
+                               <div class="portfolio-item">
+                                  <a href="img/portfolio/portfolio-5.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                  <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-5.jpg" alt=" "/>
+                                  </a>
+                                  <div class="portfolio-item-title">
+                                     <a href="single-project.html">Penguin</a>
+                                     <p>
+                                        Animal / Nature
+                                     </p>
+                                  </div>
+                                  <div class="clearfix"></div>
+                               </div>
+                           </div>
+                           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item animate_afc d7">
+                               <div class="portfolio-item">
+                                  <a href="img/portfolio/portfolio-6.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
+                                  <span class="portfolio-item-hover"></span><span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-6.jpg" alt=" "/>
+                                  </a>
+                                  <div class="portfolio-item-title">
+                                     <a href="single-project.html">Sound Box</a>
+                                     <p>
+                                        Audio / Sound
+                                     </p>
+                                  </div>
+                                  <div class="clearfix"></div>
+                               </div>
+                           </div>
+                        </div>
+                           <div class="clearfix"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>-->
+            <!-- Recent work end-->
+            <!-- Features start -->
+            <div class="features bottom-pad">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3  class="title">Our Offerings</h3>
+                        <div class="row">
+                           <div class="circular-nav">
+                              <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 animate_afl">
+                                 <div id="cn-tabs">
+                                    <div class="service service-1">
+                                       <div class="cn-content">
+                                          <h4>Mobile Application Development</h4>
+                                          <p>
+                                              AppNextGen extensive experience and portfolio makes us the ideal company to take on the crucial development stage of your project. Our team are multi-platform experts, meaning we can offer our services across the iOS, Andriod, Windows, Websites and now Cloud and Big-Data applications.
+                                          </p>
+
+
+                                          <a href="#" ui-sref="mobappdevelopment">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-2">
+                                       <div class="cn-content">
+                                          <h4>Software development</h4>
+                                          <p>
+                                              We have deep knowledge and capability in the area of Enterprise Architecture, Solution Architecture and Solution Design. Our team leads the industry in the development of high quality Enterprise Architectures, Solution Architectures and Solution Designs. Using industry standard frameworks and our own world class methodologies we can develop solutions and help your team develop solutions using a range of modern IT platforms.
+                                              We develop unique customized bespoke software applications to resolve your business needs.
+
+                                          </p>
+
+                                           <a href="#" ui-sref="softwareDevelopment">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="service service-3">
+                                       <div class="cn-content">
+                                          <h4>UX/UI Design</h4>
+                                          <p>At AppNextGen, we take both user experience and user interface very seriously. Our UI and UX designers are hands on with the interface layout, interface design, interaction design, wire-framing, user testing and quality checking. But it’s not just the designers thinking about design. From the development team to the marketing and sales teams, all have a say in the design of the product, application, website and dashboard</p>
+                                          <a href="#" ui-sref="uxuidesign">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-4">
+                                       <div class="cn-content">
+                                          <h4>Cloud Computing</h4>
+                                              <p>AppNextGen provides consulting, migration, development, and integration services to make the transition from on-premise IT infrastructure to cloud-based solutions smooth. As consultation and implementation partner, we can assist you with a well-thought-out strategy to eliminate risks.
+                                                  It is necessary to determine your specific goals and then take the plunge, for not all benefits are realized in every use case. </p>
+                                              <div>
+                                                  <b>Receive Expert Advice for:</b>
+                                                  <p>Cloud Strategy, Cloud Migration, and Cloud Integrations</p>
+                                                  <p>We support our customers by outlining the end-to-end solution moving from desktop/client application to the cloud based application.
+                                                 <br>
+                                                  <ul>
+                                                  <li>Computing Infrastructure Strategy (IaaS)</li>
+                                                   <li>Applications Platform Strategy (PaaS)</li>
+                                                   <li>Solution Portfolio Management Strate gy (SaaS)</li>
+                                                </ul>
+
+                                              </div>
+                                          <a href="#" ui-sref="cloudcomputing">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-5">
+                                       <div class="cn-content">
+                                          <h4>DataBase Development</h4>
+
+                                          <p>AppNextGen transforms both "Big and Little" Data into high impact business insights through advanced analytics visualization and decision consulting that enables our clients to drive these key levers efficiently and effectively.
+                                              We partner with clients across the decision data value range commencing from data management and portray decision data marts to providing visualization and modeling solutions. We empower clients to leverage analytics & big data insights for better business outcomes through our Decision Consulting services and Technology model.
+                                          </p>
+                                          <a href="#" ui-sref="database">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-6">
+                                       <div class="cn-content">
+                                          <h4>Infotainment and Telematics</h4>
+                                          <p><b>AppNextGen</b> telematics and infotainment team offers a wide-ranging approach to car connectivity, providing solutions ranging from telematics to smart device connectivity to car’s integration into the Internet of Things (IoT). We can help find the right solution and provide support at every stage of implementation, including concept design, embedded software development.</p>
+                                          <p>We help to build the software’s for smart devices with a car, which includes implementation of Apple CarPlay, Android Auto, SmartDeviceLInk, MirrorLink and Miracast</p>
+                                          <p>Our dedicated software, UX teams help to our customer to identify and build the infotainment and telematics software’s using Html5, Kanzi, IOS, Android, QT,QNX.</p>
+                                          <a href="#" ui-sref="infotainment">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-7">
+                                       <div class="cn-content">
+                                          <h4>Product Engineering</h4>
+                                          <p>AppNextGen has developed a proven process over its tenure and applies this method to all projects. Our model combination of skills and experience enables us to provide our clients with the best possible product whilst avoiding the costly mistakes so common in this industry. AGN use an agile methodology to ensure projects are kept on-schedule and on-budget. What's more, we keep our clients involved every step of the way with regular test builds and feedback. The average time frame to develop a product, from consultancy to submission, can range from just 6 to 12 months based on the product software requirements.</p>
+                                          <p>Get in touch to discuss our process and offerings in more detail.</p>
+                                          <a href="#" ui-sref="productEngineering">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-8">
+                                       <div class="cn-content">
+                                          <h4>Bussiness Intelligence and Analytics</h4>
+                                          <p>AppNextGen transforms both "Big and Little" Data into high impact business insights through advanced analytics visualization and decision consulting that enables our clients to drive these key levers efficiently and effectively.
+                                              We partner with clients across the decision data value range commencing from data management and portray decision data marts to providing visualization and modeling solutions. We empower clients to leverage analytics & big data insights for better business outcomes through our Decision Consulting services and Technology model.
+                                          </p>
+
+                                          <a href="#" ui-sref="bussinessIntelligence">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                    <div class="service service-9">
+                                       <div class="cn-content">
+                                          <h4>Consultings</h4>
+                                          <p>AppNextGen’s consulting services range from business consulting, to technical advisory services, to delivery services and specialized training programs. All supported by best practice tools, processes and methodologies. Our main goal is to help you overcome business challenges,improve operational efficiency and deliver business growth . Are you experiencing an of the following challenges ? If answer to any is “yes”, don’t look beyond AppNextGen can benefit you with expert advice and assistance?</p>
+
+                                           <a href="#"ui-sref="consultings">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 animate_afr">
+                                 <div class="cn-wrapper">
+                                    <ul>
+                                       <li class="circle-1 circle"><a class="active" href="#"><span class="fa fa-mobile-phone"></span></a></li>
+                                       <li class="circle-2 circle"><a href="#"><span class="fa fa-code"></span></a></li>
+                                       <li class="circle-3 circle"><a href="#"><span class="fa fa-building-o"></span> </a></li>
+                                       <li class="circle-4 circle"><a href="#"><span class="fa fa-cloud"></span></a></li>
+                                       <li class="circle-5 circle"><a href="#"><span class="fa fa-database"></span></a></li>
+                                       <li class="circle-6 circle"><a href="#"><span class="fa fa-car"></span></a></li>
+                                       <li class="circle-7 circle"><a href="#"><span class="fa fa-cubes"></span> </a></li>
+                                       <li class="circle-8 circle"><a href="#"><span class="fa fa-pie-chart"></span></a></li>
+                                       <li class="circle-9 circle"><a href="#"><span class="fa fa-hand-o-right"></span></a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Features End -->
+
+            <!-- our teams start-->
+         </div>
+
+           <div id="aboutusOurTeam">
+               <div class="content">
+                   <div class="container">
+                       <div class="row">
+                           <div class="posts-block col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                               <article>
+                                   <h3 class="title">Who We Are?</h3>
+                                   <div class="post-content">
+                                       <div class="img-content">
+                                           <img src="img/team/team.jpg" alt="">
+                                       </div>
+                                       <p>
+                                           AppNextGen came into operation in 2013, stepping things up in Silicon Valley and becoming a force to be reckoned with in the Mobile, Cloud, Big-Data and Web Development arena.
+                                       </p>
+                                       <br>
+                                       <p>
+                                           As a professional and energetic team, we are always ahead when it comes to new technology. We love what we do and it shows in our impressive portfolio, which stands as a testimony to our simple, effective and high quality work. We are proud to have worked with a range of clients from a variety of industries, offering exceptional customer service and flawless functionality.
+                                       </p>
+                                       <p>
+                                           <b>“Simplicity is the ultimate form of sophistication”</b> is our dictum and we highly take pride in making things simpler for our customers. We keep things simple, saving our clients’ time and money by providing a convenient end-to-end solution, dealing with one talented team from beginning to end.
+                                       </p>
+                                       <p>
+                                           Our customers love our fresh approach and the ease at which we operate. When choosing AppNextGen for web design, mobile application development or any of your application development need, you can be guaranteed that we will develop your ideas into dynamic, user-friendly applications /Websites that lead an increase in profit for your business.
+                                       </p>
+                                       <p>
+                                           There is a reason why we are ahead of the competition when it comes to web-applications development in Silicon Valley region is our user-friendly interfaces comply with stringent web standards and we apply our expert knowledge over a range of techniques to guarantee your website .If you are ready to take your business to the next level, contact us today and see how you can benefit from our experience
+                                       </p>
+                                   </div>
+                               </article>
+                           </div>
+                           <!-- Left Section End -->
+                           <!-- Skill Section Start -->
+                           <div class="skills col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                               <h3 class="title">Why US</h3>
+                               <p>
+                                   AppNextGen  is driven by expert level web/mobile application developers who always thrive to bring distinctive set of products and applications that make money and bring success!
+                                   We serve cutting-edge companies and brands; we keep our clients thrilled and captivated by offering them advanced level application development solutions.We are known as the "Trend-setters" since we have design masters, application development maestro’s and product whizzes to implement an acute mobile/web application development methodology!
+                                </p>
+
+                                <p><b>Features of our approach mark us out from our competitors:</b></p>
+                               <p>
+                                   <ul>
+                               <li>
+                                   We are a trusted partner to large enterprise organizations, giving us a unique insight into complex mobile requirements.
+                               </li>
+                               <li>
+                                   As an application development agency, we provide strategic and technical support to clients who are looking for a long term partner to help them achieve enterprise mobility.
+                               </li>
+                               <li>
+                                   Our mobile application development company specializes in complex technical environments and legacy systems integration.
+                               </li>
+                               <li>
+                                   We are ROI focused - committing to deliver thrice return on investment from mobile application projects.
+                               </li>
+                               <li>
+                                   We don't stop after the development of an application. We are long term partners, providing ongoing support services.
+                               </li>
+                           </ul>
+                               </p>
+
+
+                           </div>
+                           <!-- Skill Section Start -->
+                           <div class="clearfix"></div>
+                       </div>
+
+
+
+                   </div>
+               </div>
+            <div class="latest-posts">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <!-- Tab Start -->
+                        <h3 class="title">How We Work</h3>
+                        <div class="widget tabs animate_afc">
+                           <div id="horizontal-tabs">
+                              <ul class="tabs">
+                                 <li id="tab1" class="current">Processes</li>
+                                  <li id="tab2">Development Lifecycle</li>
+                                 <!--<li id="tab3">Analysis and Design</li>
+                                  <li id="tab4">Implementation</li>-->
+
+                              </ul>
+                              <div class="contents">
+                                 <div class="tabscontent" id="content1" style="display: block;">
+
+                                     <div class="accordionMod panel-group">
+                                         <div class="accordion-item">
+                                             <h4 class="accordion-toggle">Our Experience</h4>
+                                             <section class="accordion-inner panel-body">
+                                                 <p>
+                                                     <!--<img alt="" src="img/aboutus/howwework.jpg" style="height:400px;width:100%;">-->
+
+                                                     We have spent many years refining and improving our processes to ensure we are delivering the best possible service. So based on our deep experience, and our customers’ input and feedback, we have developed a unique software development methodology. Using Agile - Devise and Deliver Quickly to Save Up-front and Ongoing costs is out prime job.
+
+                                                     Our well experienced consultants consider all factors surrounding your requirements e.g. hardware, software, networking, people, budgets, stake-holders and everything to propose solutions. This is just the beginning.In present times, it is not easy to define everything and requirements change midway. Our agile process ensures that we quickly incorporate changes as they emerge so that you get a fully functional product to use upon delivery.
+
+                                                 </p>
+                                             </section>
+                                         </div>
+                                         <div class="accordion-item">
+                                             <h4 class="accordion-toggle" >More</h4>
+                                             <section class="accordion-inner panel-body" >
+                                                 <p>
+                                                     When you are with us, you do not have to waste time in writing elaborate specifications. We will do it for you, devise and deliver!
+
+                                                     Save time, Save money with efficiency and higher productivity. Time Saved is money saved and money saved is money earned.
+                                                     Save time, Save money but upfront lower costs can be deceptive. It is for this reason, we always advise our clients to consider all costs in development such as:
+                                                     <ul class="check-list why">
+                                                        <li>
+                                                            Specification Writing.
+                                                        </li>
+                                                        <li>
+                                                            Involvement of personnel  during development especially time spent in workshops and explaining.
+                                                        </li>
+                                                        <li>
+                                                            Testing by client staff including 'rework'
+                                                        </li>
+                                                        <li>
+                                                            Loss in income due to projects completed late or delayed
+                                                        </li>
+                                                        <li>
+                                                            Cost of minor changes and upgrades
+                                                        </li>
+                                                        <li>
+                                                            Ongoing Support Costs
+                                                        </li>
+                                                        <li>
+                                                            Cost of IT Staff
+                                                        </li>
+                                                        <li>
+                                                            Cost of IT, hardware, Software Licensing, Networking, Staging (test) Servers
+                                                        </li>
+                                                        <li>
+                                                            Cost of anticipated issues - Not Being Advised in advance
+                                                        </li>
+                                                    </ul>
+
+                                                     We bring you the advantage of expertise, highly competitive prices and shortest possible delivery time. We are able to do so through our expert professional staff and highly evolved agile scrum  practice that covers all aspects of software i.e. development, testing, licensing, system installation (including server, network, firewall issues) and configuration, support and ongoing maintenance.
+
+                                                     With assurances of high quality through Quality Planning (QP) and Quality Awareness (QA) procedures, AppGenNext focuses on the quality services at a level that assures complete satisfaction and confidence in our work. AppGenNext guarantees prompt exchange of information about the project work-flow, regular status reports, presentation of current progress, and solid software delivery processes to give our clients absolute confidence that the project will be carried out on time and as planned.
+
+                                                 </p>
+                                             </section>
+                                         </div>
+
+                                     </div>
+                                 </div>
+                                 <div class="tabscontent" id="content2">
+                                    <p>
+                                        <img alt="" src="img/offerings/process.jpg" style="height:400px;width:100%;">
+                                    </p>
+                                 </div>
+                                 <div class="tabscontent" id="content3">
+                                    <p>
+                                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Tab End -->
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <!-- Testimonials Widget Start -->
+                        <div class="row">
+                           <div class="testimonials widget">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="testimonials-title">
+                                    <h3 class="title">Our Values</h3>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                               <p>
+                                   We believe the company with the best culture wins the race.Our values serve as a compass for our actions and describe how we behave in the world.We hold our core values in high regard. Our seven core values represent the framework of our cultural beliefs, shaping every decision and every action we make.
+                               </p>
+                               <div class="accordionMod panel-group">
+                                   <div class="accordion-item">
+                                       <h4 class="accordion-toggle">INTEGRITY AND OWNERSHIP</h4>
+                                       <section class="accordion-inner panel-body">
+                                           <p>
+                                               We will do the right thing at all times under any circumstance.We take personal responsibility for finding a sense of purpose and meaning in our work. Any task we take on should be from the start to the finish.
+                                           </p>
+                                       </section>
+                                   </div>
+                                   <div class="accordion-item">
+                                       <h4 class="accordion-toggle">INNOVATION AND PASSION</h4>
+                                       <section class="accordion-inner panel-body">
+                                           <p>
+                                               We are the people who love what we do and do what we love. Tapping into the power of passion is essential to being able to accomplish what we want with ourselves and with our company.
+                                               We will all be creative as we continually improve everything through rich collaboration while experimenting often and failing fast. The best ideas get implemented and change for the good is always embraced.
+                                           </p>
+                                       </section>
+                                   </div>
+                                   <div class="accordion-item">
+                                       <h4 class="accordion-toggle">NEVER GIVE-UP ATTITUDE</h4>
+                                       <section class="accordion-inner panel-body">
+                                           <p>
+                                               We will be highly disciplined, courageous, relentless and passionate about delivering excellence in all we promise or seek. Our operational rigor translates into accountability and freedom for all team members.Resources are never in abundance, we all have to work and operate within given constraints. We ensure instead of treating any limitation as a bottleneck, we achieve the maximum possible output.
+                                           </p>
+                                       </section>
+                                   </div>
+                                   <div class="accordion-item">
+                                       <h4 class="accordion-toggle">LEARNING ORGANIZATION: BOTH AT PROFESSIONAL AND PRIVATE ENDS</h4>
+                                       <section class="accordion-inner panel-body">
+                                           <p>
+                                               We will deliver much higher value to our clients by each working a robust learning system. We will all share our knowledge and codify our key processes to raise our team's collective wisdom.
+                                               We commit to continuous learning and improvement as individuals and as an organization. You either grow or stagnate, there is no middle ground. When we enhance our capabilities, we also enhance our organizations capabilities and credibility. The organization is only as strong as its weakest employee.
+
+                                           </p>
+                                       </section>
+                                   </div>
+                                   <div class="accordion-item">
+                                       <h4 class="accordion-toggle">EXTREME ATTENTION TO DETAIL</h4>
+                                       <section class="accordion-inner panel-body">
+                                           <p>
+                                               We will create delight in all we do by scrutinizing the tiniest of details while finding inventive ways to have fun along the way.We don't believe in working aimlessly and not knowing whether or not will hit bull's eye. We have clarity of goals, we know how to focus and execute to 'Make an Impact' rather to 'Make a positive impact'.
+
+                                           </p>
+                                       </section>
+                                   </div>
+                                   <div class="accordion-item">
+                                       <h4 class="accordion-toggle">HAVE FUN WORK SMART </h4>
+                                       <section class="accordion-inner panel-body">
+                                           <p>
+                                               We should work hard and party harder. We foster a healthy work-life balance and build a positive and energizing work environment.We will work smart and hard while being grounded in how we work to live, not live to work. Health and family first.
+
+                                           </p>
+                                       </section>
+                                   </div>
+                               </div>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="clearfix"></div>
+                  </div>
+                  <div class="divider"></div>
+               </div>
+            </div>
+
+           </div>
+
+            <!-- Our Clients Start-->
+            <div id="ourClients" class="our-clients">
+              <div class="bg-overlay">
+                   <div class="container">
+                      <div class="row">
+                         <div class="client">
+                            <div class="client-logo">
+                               <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                  <div class="clients-title">
+                                     <h3 class="title">Our Clients</h3>
+                                     <div class="carousel-controls pull-right">
+                                        <a class="prev" href="#client-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                                        <a class="next" href="#client-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                                        <div class="clearfix"></div>
+                                     </div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                                  <div class="row">
+                                     <div id="client-carousel" class="carousel slide">
+                                        <div class="carousel-inner">
+                                           <div class="item active">
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d1">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/CCS.png"></a></div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d2">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/bestica.png"></a></div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d3">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/Helm360.png"></a></div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d4">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/Aezion.png"></a></div>
+                                              </div>
+                                           </div>
+                                           <div class="item">
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/citronit.png"></a></div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/gap.png"></a></div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/proteus.png"></a></div>
+                                              </div>
+                                              <!--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                 <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/logo-3.png"></a></div>
+                                              </div>-->
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                               <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                  <!-- Testimonials Widget Start -->
+                                  <div class="row ">
+                                     <div class="testimonials widget">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                           <div class="testimonials-title">
+                                              <h3 class="title">Testimonials</h3>
+                                           </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div id="testimonials-carousel" class="testimonials-carousel slide animate_afr d5">
+                                           <div class="carousel-inner">
+                                              <div class="item active">
+                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="testimonial item">
+                                                       <p>
+                                                           We have found AppNextGen to be a true mobile development partner and helping us building the next generation mobile app.They are committed to “adding value” throughout the process and are genuinely concerned with helping us grow our business.
+                                                       </p>
+                                                       <div class="testimonials-arrow">
+                                                       </div>
+                                                       <div class="author">
+                                                          <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-1.jpg"></div>
+                                                          <div class="testimonial-author-info">
+                                                             <a href="#"><span class="color">Harinder Singh</span></a> Bestica
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                              <div class="item">
+                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="testimonial item">
+                                                       <p>
+                                                           Under some intense deadlines on some SOA and Mobile solutions, we reached out to AppNextGen for help. Not only were they current on many technologies, but their specific expertise in Mobile and SOA helped distribute the workload so that we could concentrate on the business specific problems. Would I use them again ... you bet!
+                                                       </p>
+                                                       <div class="testimonials-arrow">
+                                                       </div>
+                                                       <div class="author">
+                                                          <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-2.jpg"></div>
+                                                          <div class="testimonial-author-info">
+                                                             <a href="#"><span class="color">Raminder Singh</span></a> Heml 360
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                              <div class="item">
+                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="testimonial item">
+                                                       <p>
+                                                           AppNextGeb has provided the highest degree of flexibility, scalability and service orientation to enable us meet the strategic goals for some of our largest mobile initiatives. We believe that AppNextGen has the advantage of deep domain expertise and provides the industry's best ROI for all mobile app development technologies
+                                                       </p>
+                                                       <div class="testimonials-arrow">
+                                                       </div>
+                                                       <div class="author">
+                                                          <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-3.jpg"></div>
+                                                          <div class="testimonial-author-info">
+                                                             <a href="#"><span class="color">Chris</span></a> CitronIt
+                                                          </div>
+                                                       </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+              </div>
+            </div>
+            <!-- Our Clients End -->
+
+         <!-- Content End -->
+          <div ui-view></div>
+         <!-- Footer Start -->
+         <footer id="footer">
+            <!-- Footer Top Start -->
+            <div class="footer-top">
+               <div class="container">
+                  <div class="row">
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
+                        <h3>About</h3>
+                        <p>
+                            AppNextGen came into operation in 2013, stepping things up in Silicon Valley and becoming a force to be reckoned with in the Mobile, Cloud, Big-Data and Web Development arena.
+                        </p>
+                     </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
+                        <h3>Careers</h3>
+                        <p>
+                            Join us and develop faster and more broadly than at any other point in your career. We take on big challenges, provide support to conquer them, and give everyone the chance to shape the future of the company.
+                        </p>
+                     </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                        <h3 >News</h3>
+                        <p>
+                          AppNextgen entered into an agreement with Helm360 for mobile apps and software development.
+                        </p>
+                     </section>
+                     <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
+                        <h3 >Contact Us</h3>
+                        <ul class="contact-us">
+                           <li>
+                              <i class="fa fa-map-marker"></i>
+                              <p>
+                                 <strong class="contact-pad">Address:</strong> 3238 Belden Terrace,<br> Fremont<br>
+                                 CA, USA
+                              </p>
+                           </li>
+                           <li>
+                              <i class="fa fa-phone"></i>
+                              <p><strong>Phone:</strong> 510-598-9007</p>
+                           </li>
+                           <li>
+                              <i class="fa fa-envelope"></i>
+                              <p><strong>Email:</strong><a href="mailto:support@appnextgen.com">support@appnextgen.com</a></p>
+                           </li>
+                        </ul>
+                     </section>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer Top End -->
+            <!-- Footer Bottom Start -->
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 "> &copy; Copyright 2015 by <a href="#">AppNextGen</a>. All Rights Reserved. </div>
+                     <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
+                        <ul class="social social-icons-footer-bottom">
+                           <li class="facebook"><a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                           <li class="twitter"><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                           <li class="dribbble"><a href="#" data-toggle="tooltip" title="Dribble"><i class="fa fa-dribbble"></i></a></li>
+                           <li class="linkedin"><a href="#" data-toggle="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                           <li class="rss"><a href="#" data-toggle="tooltip" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer Bottom End -->
+         </footer>
+         <!-- Scroll To Top -->
+         <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
+      </div>
+      <!-- Wrap End -->
+
+
+      <!-- Angular -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+  <!-- UI-Router -->
+  <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+
+  <!-- App Script -->
+  <script src="app/app.js"></script>
+  <script type="text/javascript" src = "js/main.min.js"></script>
+
+      <!-- The Scripts -->
+      <!--<script src="js/jquery.min.js"></script>
+      <script src="js/jquery-migrate-1.2.1.min.js"></script>
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/jquery.parallax.js"></script>
+      <script src="js/jquery.wait.js"></script>
+      <script src="js/modernizr-2.6.2.min.js"></script>
+      <script src="js/modernizr.custom.js"></script>
+      <script src="js/jquery.themepunch.tools.min.js"></script>
+      <script src="js/jquery.themepunch.revolution.min.js"></script>-->
+      
+      <script src="js/jquery.nivo.slider.pack.js"></script>
+      <script src="js/jquery.prettyPhoto.js"></script>
+      <script src="js/superfish.js"></script>
+      <script src="js/tweetMachine.js"></script>
+      <script src="js/tytabs.js"></script>
+      <script src="js/jquery.gmap.min.js"></script>
+      <script src="js/circularnav.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jflickrfeed.js"></script>
+      <script src="js/imagesloaded.pkgd.min.js"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
